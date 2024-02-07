@@ -1,3 +1,6 @@
+import CallToAction from "@/components/CallToAction";
+import Hero from "@/components/Hero";
+import Listings from "@/components/Slide";
 import Link from "next/link";
 
 
@@ -5,11 +8,9 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-   
-<h1>Home</h1>
-<Link href="/sideprojects/list">
-Projects
-  </Link>
+   <Hero />
+<CallToAction />
+<Listings />
   
   
     </main>
