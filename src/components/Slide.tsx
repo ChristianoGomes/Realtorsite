@@ -28,7 +28,7 @@ const Slide = () => {
       className="z-50 flex flex-col justify-center items-center"
     >
       <motion.p className="font-bold text-xl md:text-6xl text-center bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-200 py-4">
-        Your Sunny Isles Beach <span className="bold-1">Expert</span> <br /> Real Estate Agent
+        A Sunny Isles Beach <span className="bold-1">Expert</span> <br /> Real Estate Agent
       </motion.p>
    
     </motion.div>
