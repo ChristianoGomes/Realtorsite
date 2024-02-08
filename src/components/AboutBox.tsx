@@ -9,7 +9,7 @@ const AboutBox = () => {
           className="relative scroll-mt-14 pb-3 pt-8 sm:scroll-mt-32 sm:pb-16 sm:pt-10 lg:pt-16 shadow-md"
         >
           <div className="absolute inset-x-0 bottom-0 top-1/2 text-slate-900/10 [mask-image:linear-gradient(transparent,white)] rounded-md">
-            {/* <GridPattern x="50%" y="100%" /> */}
+           
           </div>
           <div className="relative mx-auto max-w-5xl pt-16 sm:px-6">
             <div className="bg-slate-50 pt-px sm:rounded-6xl rounded-lg">
@@ -24,9 +24,7 @@ const AboutBox = () => {
                 />
               </div>
               <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
-                {/* <SectionHeading number="5" id="author-title"> */}
-                 
-                {/* </SectionHeading> */}
+               
                 <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
                   <span className="block text-blue-600">Luiza Weisberg –</span> Hello
                   there, I’m an industry expert ‘here to help with all your real estate related needs’.
