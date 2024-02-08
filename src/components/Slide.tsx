@@ -12,7 +12,7 @@ const Slide = () => {
     "https://photo-cdn2.icons8.com/EJGNt0Fa1rPdo5w8qz4IPCHyyygCwO_1yR2UNxWvG-A/rs:fit:1611:1072/czM6Ly9pY29uczgu/bW9vc2UtcHJvZC5l/eHRlcm5hbC9hMmE0/Mi9iODZjNzMwYjhi/YTc0ZDZiODcwMzY3/MWY3MTlkZjI3Yy5q/cGc.jpg",
   ];
   return (
-    <ImagesSlider className="h-[40rem]" images={images}>
+    <ImagesSlider className="h-[40rem] lg:shadow-top" images={images}>
     <motion.div
       initial={{
         opacity: 0,
