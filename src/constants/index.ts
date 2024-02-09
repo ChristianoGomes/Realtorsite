@@ -58,7 +58,7 @@ export const NAV_LINKS = [
       links: [
         { label: 'London Foster', href: 'https://londonfoster.com/agents/luiza-weisberg/' },
         { label: '407 Lincoln Rd #10G, Miami Beach, FL 33139', href: 'https://www.google.com/maps/place/London+Foster/@25.7909259,-80.1327913,15z/data=!4m2!3m1!1s0x0:0x8343aeccd03673fb?sa=X&ved=2ahUKEwi8jLX4wZ6EAxXaZzABHXoyCKcQ_BJ6BAhUEAA' },
-        { label: '(844)-566-3663', href: 'tel:+18445663663' }
+        { label: '(844)-566-3663', href: 'tel:+13052139742' }
       ]
     }
   ];
@@ -66,7 +66,7 @@ export const NAV_LINKS = [
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact me',
     links: [
-      { label: 'Phone : 305-213-9742' , href: 'tel:+18445663663' },
+      { label: 'Phone : 305-213-9742' , href: 'tel:+13052139742' },
       { label: 'Email : luizaw@realestatefla.org',  href: 'mailto:luizaw@realestatefla.org'},
     ]
   };

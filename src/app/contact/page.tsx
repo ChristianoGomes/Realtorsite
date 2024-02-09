@@ -1,9 +1,10 @@
 import Link from 'next/link';
 import React from 'react'
+import { FaMobile, FaPhone } from 'react-icons/fa';
 
 const Contacts = () => {
   return (
-    <div className="my-6">
+    <div className="my-6 ">
       <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
         <div>
           <h1 className="text-3xl font-extrabold">Let's Talk</h1>
@@ -39,6 +40,26 @@ const Contacts = () => {
                 >
                   <small className="block">Mail</small>
                   <strong>luizaw@realestatefla.org</strong>
+                </Link>
+              </li>
+            </ul>
+          </div>
+          <div className="mt-12">
+            <h2 className="text-lg font-extrabold">Call or send me a text </h2>
+            <ul className="mt-3">
+              <li className="flex items-center">
+                <div className="bg-[#e6e6e6cf] h-10 w-10 rounded-full flex items-center justify-center shrink-0">
+                  <Link  href='tel:+13052139742' >
+           <FaMobile />
+                  </Link>
+                </div>
+                <Link
+                  target="blank"
+                  href='tel:+13052139742' 
+                  className="text-[#1c2143] text-sm ml-3"
+                >
+                  <small className="block">Mobile number</small>
+                  <strong>305-213-9742</strong>
                 </Link>
               </li>
             </ul>
@@ -94,8 +115,11 @@ const Contacts = () => {
             </ul>
           </div>
         </div>
+          
+{/* Implement with resend after buying domain name and setting up server */}
 
-        <form className="ml-auo space-y-4">
+
+        {/* <form className="ml-auo space-y-4">
           <input
             type="text"
             placeholder="Name"
@@ -104,6 +128,11 @@ const Contacts = () => {
           <input
             type="email"
             placeholder="Email"
+            className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#1c2143]"
+          />
+           <input
+            type="Phone"
+            placeholder="Phone number"
             className="w-full rounded-md py-2.5 px-4 border text-sm outline-[#1c2143]"
           />
           <input
@@ -122,7 +151,7 @@ const Contacts = () => {
           >
             Send
           </button>
-        </form>
+        </form> */}
       </div>
     </div>
   );
