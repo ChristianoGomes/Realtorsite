@@ -40,37 +40,43 @@ export const NAV_LINKS = [
     }
   ];
   
+  
+  
   // FOOTER SECTION
+
   export const FOOTER_LINKS = [
     {
       title: 'Learn More',
       links: [
-        'My Active listings',
-        'About me ',
-        'Contact',
-      ],
-      href: "/about",
+        { label: 'My Active listings', href: '/mylistings' },
+        { label: 'About me', href: '/about' },
+        // Add more links as needed
+      ]
     },
     {
       title: 'Brokerage',
-      links: ['London Foster', '407 Lincoln Rd #10G, Miami Beach, FL 33139', '(844)-566-3663'],
-    },
+      links: [
+        { label: 'London Foster', href: 'https://londonfoster.com/agents/luiza-weisberg/' },
+        { label: '407 Lincoln Rd #10G, Miami Beach, FL 33139', href: 'https://www.google.com/maps/place/London+Foster/@25.7909259,-80.1327913,15z/data=!4m2!3m1!1s0x0:0x8343aeccd03673fb?sa=X&ved=2ahUKEwi8jLX4wZ6EAxXaZzABHXoyCKcQ_BJ6BAhUEAA' },
+        { label: '(844)-566-3663', href: 'tel:+18445663663' }
+      ]
+    }
   ];
   
   export const FOOTER_CONTACT_INFO = {
     title: 'Contact me',
     links: [
-      { label: 'Phone :', value: '305-213-9742' },
-      { label: 'Email:', value: 'luizaw@realestatefla.org' },
-    ],
+      { label: 'Phone : 305-213-9742' , href: 'tel:+18445663663' },
+      { label: 'Email : luizaw@realestatefla.org',  href: 'mailto:luizaw@realestatefla.org'},
+    ]
   };
   
   export const SOCIALS = {
     title: 'Socials',
     links: [
-      '/insta.svg',
-      '/facebook.svg',
-     
-      
-    ],
+      { src: '/instagram.svg', href: "https://www.instagram.com/larique7/?hl=en" },
+      { src: '/facebook.svg', href: "https://www.facebook.com/larique7/" },
+      { src: '/linkedin.svg', href: "https://www.linkedin.com/in/luiza-weisberg-pa-59b89732/" }
+      // Add more social media links as needed
+    ]
   };

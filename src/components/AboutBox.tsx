@@ -26,10 +26,10 @@ const AboutBox = () => {
               <div className="px-4 py-10 sm:px-10 sm:py-16 md:py-20 lg:px-20 lg:py-32">
                
                 <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
-                  <span className="block text-blue-600">Luiza Weisberg –</span> "Hello
+                  <span className="block text-[#f3cd74]">Luiza Weisberg –</span> "Hello
                   there, I’m an industry expert here to help with all your real estate related needs".
                 </p>
-                <p className="mt-4 text-lg tracking-tight text-slate-700">
+                <p className="mt-4 text-xl tracking-tight text-slate-700">
                 I am a Brazilian born U.S. citizen with over 20 years of real estate experience in South Florida.
 My U.S. real estate career started after owning a large international travel company based in Joao Pessoa, Brazil that lead me on extensive world wide travels.
 I'm a graduate of the University of Paraíba, I immigrated to the US in 1997 where I developed my skills and followed my passion for real estate by working at FL REO gaining valuable knowledgeable working with banks and establishing home values.
