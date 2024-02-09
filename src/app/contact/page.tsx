@@ -1,16 +1,16 @@
 import Link from 'next/link';
 import React from 'react'
-import { FaMobile, FaPhone } from 'react-icons/fa';
+import { FaMobile  } from 'react-icons/fa';
 
 const Contacts = () => {
   return (
     <div className="my-6 ">
       <div className="grid sm:grid-cols-2 items-center gap-16 p-8 mx-auto max-w-4xl bg-white shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-md text-[#333] font-[sans-serif]">
         <div>
-          <h1 className="text-3xl font-extrabold">Let's Talk</h1>
+          <h1 className="text-3xl font-extrabold">Let&apos;s Talk</h1>
           <p className="text-lg text-gray-400 mt-3">
             looking to buy, rent or sell and need help? Then reach out
-            I'd love to hear about your interest  and provide help.
+            I&apos;d love to hear about your interest  and provide help.
           </p>
           <div className="mt-12">
             <h2 className="text-lg font-extrabold">Email</h2>

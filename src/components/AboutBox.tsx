@@ -27,12 +27,12 @@ const AboutBox = () => {
                
                 <p className="mt-8 font-display text-5xl font-extrabold tracking-tight text-slate-900 sm:text-6xl">
                   <span className="block text-[#f3cd74]">Luiza Weisberg –</span> "Hello
-                  there, I’m an industry expert here to help with all your real estate related needs".
+                  there, I&apos;m an industry expert here to help with all your real estate related needs".
                 </p>
                 <p className="mt-4 text-xl tracking-tight text-slate-700">
                 I am a Brazilian born U.S. citizen with over 20 years of real estate experience in South Florida.
 My U.S. real estate career started after owning a large international travel company based in Joao Pessoa, Brazil that lead me on extensive world wide travels.
-I'm a graduate of the University of Paraíba, I immigrated to the US in 1997 where I developed my skills and followed my passion for real estate by working at FL REO gaining valuable knowledgeable working with banks and establishing home values.
+I&apos;m a graduate of the University of Paraíba, I immigrated to the US in 1997 where I developed my skills and followed my passion for real estate by working at FL REO gaining valuable knowledgeable working with banks and establishing home values.
 Today, I am a leading experienced provider of all real estate services with close well established connections that include banks, attorneys and developers providing concierge services to an international array of clients.
                 </p>
            

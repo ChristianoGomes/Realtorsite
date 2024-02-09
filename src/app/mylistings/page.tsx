@@ -1,6 +1,7 @@
 import Card from '@/components/Card'
 import Image from 'next/image'
 import React from 'react'
+import Link from 'next/link'
 
 const Listings = () => {
   return (
@@ -21,12 +22,12 @@ const Listings = () => {
         
         <div className="group relative">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
+            <Link href="#">
               <span className="absolute inset-0"></span>
               London Foster
-            </a>
+            </Link>
           </h3>
-          <p className="mt-5 line-clamp-3 text-sm leading-6 text-2xl text-gray-600">"Explore my current active listings and discover the perfect property for you. Contact me today for more info."</p>
+          <p className="mt-5 line-clamp-3 leading-6 text-2xl text-gray-600">"Explore my current active listings and discover the perfect property for you. Contact me today for more info."</p>
         </div>
         
         <div className="relative mt-8 flex items-center gap-x-4">
