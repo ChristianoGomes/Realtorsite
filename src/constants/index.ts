@@ -32,7 +32,7 @@ export const NAV_LINKS = [
         'Whether you are seeking a cozy apartment or a spacious family home, I specialize in matching tenants with their ideal rental properties. With personalized attention and extensive knowledge of the rental market, I will guide you through every aspect of the process, ensuring a seamless and satisfying rental journey.',
     },
     {
-      title: 'Management',
+      title: 'Administration ',
       icon: '/home.svg',
       variant: 'orange',
       description:
